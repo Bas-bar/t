@@ -1,0 +1,60 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #c0c0c0; /* Gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 5px 0px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+}
+
+.inner {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
+
+/* Color configurations */
+.red {
+  background-color: red;
+}
+
+.light-red {
+  background-color: rgb(248, 167, 181);
+  bottom: 0;
+  width: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.light-yellow {
+  background-color: #ffffe0;
+  bottom: 0;
+  right: 0;
+}
+
+.green {
+  background-color: #006400;
+}
+
+.light-green {
+  background-color: #98fb98;
+  bottom: 0;
+}
